@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/home/ontologies/2022/10/untitled-ontology-32"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/home/ontologies/2022/10/untitled-ontology-32">
+    <Prefix name="" IRI="http://www.semanticweb.org/home/ontologies/2022/10/untitled-ontology-32"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Препарат"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Симптом"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Форма"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Введение"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Показано"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Противопоказано"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Сочетается"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Группа"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Буторфанол"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Индометацин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кодеин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Парацетамол"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Суматриптан"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Трамадол"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#головная_боль"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#головокружение"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#кашель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мигрень"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#назальный_полип"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#назальный_спрей"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#нарушения_сна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#отравление_алкоголем"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#повышенное_кровяное_давление"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#повышенное_потоотделение"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#проблемы_с_дыханием"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сироп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#слабость"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#таблетки"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тошнота"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#травма_головы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эпилепсия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#язва"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#Препарат"/>
+        <Class IRI="#Симптом"/>
+        <Class IRI="#Форма"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Индометацин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Кодеин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Препарат"/>
+        <NamedIndividual IRI="#Трамадол"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#головокружение"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#кашель"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#мигрень"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#назальный_полип"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Форма"/>
+        <NamedIndividual IRI="#назальный_спрей"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#нарушения_сна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#отравление_алкоголем"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#повышенное_кровяное_давление"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#повышенное_потоотделение"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#проблемы_с_дыханием"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Форма"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Форма"/>
+        <NamedIndividual IRI="#сироп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#слабость"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Форма"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#тошнота"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#травма_головы"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#эпилепсия"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Симптом"/>
+        <NamedIndividual IRI="#язва"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#Трамадол"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+        <NamedIndividual IRI="#головная_боль"/>
+        <NamedIndividual IRI="#головокружение"/>
+        <NamedIndividual IRI="#кашель"/>
+        <NamedIndividual IRI="#мигрень"/>
+        <NamedIndividual IRI="#назальный_полип"/>
+        <NamedIndividual IRI="#назальный_спрей"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+        <NamedIndividual IRI="#нарушения_сна"/>
+        <NamedIndividual IRI="#отравление_алкоголем"/>
+        <NamedIndividual IRI="#повышенное_кровяное_давление"/>
+        <NamedIndividual IRI="#повышенное_потоотделение"/>
+        <NamedIndividual IRI="#проблемы_с_дыханием"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+        <NamedIndividual IRI="#слабость"/>
+        <NamedIndividual IRI="#тошнота"/>
+        <NamedIndividual IRI="#травма_головы"/>
+        <NamedIndividual IRI="#эпилепсия"/>
+        <NamedIndividual IRI="#язва"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#головокружение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#слабость"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <NamedIndividual IRI="#травма_головы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#повышенное_кровяное_давление"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#язва"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#назальный_полип"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#сироп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#головокружение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#нарушения_сна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#тошнота"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#кашель"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#проблемы_с_дыханием"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сочетается"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сочетается"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <NamedIndividual IRI="#Трамадол"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#назальный_полип"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#назальный_спрей"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#головокружение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#тошнота"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#мигрень"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <NamedIndividual IRI="#эпилепсия"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Введение"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#таблетки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#головная_боль"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#головокружение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#нарушения_сна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#повышенное_потоотделение"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#слабость"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Показано"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#отравление_алкоголем"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сочетается"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <Literal>Буторфанол</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <Literal>опиоид</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Буторфанол"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <Literal>Индометацин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <Literal>ауксин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Индометацин"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <Literal>Кодеин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <Literal>алкалоид</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Кодеин"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <Literal>Парацетамол</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <Literal>анилид</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Парацетамол"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <Literal>Суматриптан</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <Literal>алкалоид</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Суматриптан"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <Literal>Трамадол</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Группа"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <Literal>опиоид</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип"/>
+        <NamedIndividual IRI="#Трамадол"/>
+        <Literal>анальгетик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#болевой_синдром_второй_степени"/>
+        <Literal>болевой синдром второй степени</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#болевой_синдром_первой_степени"/>
+        <Literal>болевой синдром первой степени</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#головная_боль"/>
+        <Literal>головная боль</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#головокружение"/>
+        <Literal>головокружение</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#кашель"/>
+        <Literal>кашель</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#мигрень"/>
+        <Literal>мигрень</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#назальный_полип"/>
+        <Literal>назальный полип</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#назальный_спрей"/>
+        <Literal>назальный спрей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#наркотическая_зависимость"/>
+        <Literal>наркотическая зависимость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#отравление_алкоголем"/>
+        <Literal>отравление алкоголем</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#повышенное_кровяное_давление"/>
+        <Literal>повышенное кровяное давление</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#проблемы_с_дыханием"/>
+        <Literal>проблемы с дыханием</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#проблемы_с_жкт"/>
+        <Literal>проблемы с жкт</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#проблемы_с_печенью"/>
+        <Literal>проблемы с печенью</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#проблемы_с_почками"/>
+        <Literal>проблемы с почками</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#проблемы_с_сердцем"/>
+        <Literal>проблемы с сердцем</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#раствор_для_подкожного_введения"/>
+        <Literal>раствор для подкожного введения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#сироп"/>
+        <Literal>сироп</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#таблетки"/>
+        <Literal>таблетки</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#травма_головы"/>
+        <Literal>травма головы</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#эпилепсия"/>
+        <Literal>эпилепсия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#язва"/>
+        <Literal>язва</Literal>
+    </DataPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Сочетается"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Показано"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Введение"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Показано"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Сочетается"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Введение"/>
+        <Class IRI="#Форма"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Побочный_эффект"/>
+        <Class IRI="#Симптом"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Показано"/>
+        <Class IRI="#Симптом"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Противопоказано"/>
+        <Class IRI="#Симптом"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Сочетается"/>
+        <Class IRI="#Препарат"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#Показано"/>
+        <ObjectProperty IRI="#Противопоказано"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Name"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Группа"/>
+        <Class IRI="#Препарат"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип"/>
+        <Class IRI="#Препарат"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Группа"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
